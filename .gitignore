@@ -1,0 +1,9 @@
+node_modules/
+.DS_Store
+*.log
+.sites-runtime/
+.openai/
+baseline-v1/
+effects-fragment.txt
+finalize-v13.cjs
+prd-v1.3-source.txt
