@@ -30,6 +30,8 @@ C：简单配置转流程 → 添加物流分支 → 超时转人工 → 绑定 
 
 执行 `node serve.cjs`，打开 http://127.0.0.1:4173/#list 。
 
+GitHub Pages 使用仓库根目录的 `index.html`；根目录静态文件由 `dist/` 同步生成，推送到 `main` 后可直接访问 `https://gjr-xiaoyi.github.io/agent-studio-demo/`。
+
 执行 `node verify.cjs` 检查状态规则与 UI 渲染；支持单独执行 `node verify-v13.cjs` 与 `node verify-ui.cjs`。
 
 ## 边界
